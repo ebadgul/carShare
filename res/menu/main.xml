@@ -1,0 +1,48 @@
+<!--  <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wit.getaride.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+</menu>-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<!-- @android:drawable/ic_menu_report_image -->
+    
+    
+    <item
+        android:id="@+id/menuHome"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menuHome"
+        android:onClick="homeClicked"/>    
+    
+     <item
+        android:id="@+id/menuDest"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menuDest"
+        android:onClick="destClicked"/>  
+      <item
+        android:id="@+id/menuSvDest"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/savedDest"
+        android:onClick="savedDests"/>  
+      <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Logout"
+        android:onClick="logout"/> 
+      <item
+        android:id="@+id/profile"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Profile"
+        android:onClick="openProfile"/> 
+</menu>

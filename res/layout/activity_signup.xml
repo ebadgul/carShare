@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    
+    tools:context="com.wit.getaride.Signup" >
+    
+      <include
+        android:id="@+id/top_bar"
+        layout="@layout/top_bar" />
+
+    <EditText
+        android:id="@+id/name"
+        style="@style/regForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/userName"
+        style="@style/regForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/blueTransparent"
+        android:ems="10"
+        android:hint="Create user name" />
+
+    <EditText
+        android:id="@+id/et_password"
+        style="@style/regForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/blueTransparent"
+        android:ems="10"
+        android:hint="Enter password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/re_password"
+        style="@style/regForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/blueTransparent"
+        android:ems="10"
+        android:hint="Re-enter password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/phone_number"
+        style="@style/regForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blueTransparent"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:hint="Enter phone number"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="signup"
+        android:text="Sign-up" />
+
+</LinearLayout>

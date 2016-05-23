@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- #463253
+    #674B7A
+     --> 
+    <color name="purpleDark">#3E65C7</color>
+     <color name="purpleLight">#305BFF</color>
+     <color name="lighttext">#D4D3FA</color>
+       <color name="darktext">#040826</color>
+       <color name="lightBlue">#E5E5FF</color>
+       <color name="blueTransparent">#40E5E5FF</color>
+       <color name="redTransparent">#40F79F81</color>
+       <color name="gradient_start">#4F40F2</color>
+    	<color name="gradient_end">#3C30BC</color>
+    
+</resources>
